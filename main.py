@@ -10,17 +10,17 @@ def combat(my_wep,enemy_wep,my_ships,enemy_ships):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    industry = 262
+    industry = 279
     manu_start = 5
     manu_end   = 15
 
     science_required = 1152 - 120 +1008-434 + 864-102
-    science_required = 1584 - 61
+    science_required = 1584 - 373 + 864 - 102
     science_start = 60
     science_end   = 125
 
     attack_wep = 12
-    def_wep = 11
+    def_wep = 12
 
     ships_per_hour = round(industry * (manu_start - 1 + 5) / 24, 2) ## starting manutech - 1 calc
     for manutech in range(manu_start, manu_end):
