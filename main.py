@@ -1,7 +1,3 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 import math
 
 def combat(my_wep,enemy_wep,my_ships,enemy_ships):
@@ -43,8 +39,6 @@ if __name__ == '__main__':
     # for i in range(10,14):
     #     for j in range(10,14):
     #         print('def wep = '+ str(i) + ' ' + 'attack wep = '+ str(j) + ' def % advantage' + str(round((i+1)/j*100,2)))
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
 
 # could use this as basis for combat
